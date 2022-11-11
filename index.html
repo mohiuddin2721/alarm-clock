@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="content">
+        <div class="container">
+            <div class="header">
+                <h1>Alarm Clock</h1>
+            </div>
+            <div class="current-time"></div>
+            <h1>Set Alarm</h1>
+            <form action="" class="user-input">
+                <input type="number" id="hour" max="23" min="00" placeholder="HH">
+                <input type="number" id="min" max="59" min="00" placeholder="MM">
+                <input type="number" id="sec" max="59" min="00" placeholder="SS">
+                <br />
+                <button type="submit">Set Alarm</button>
+                <button type="reset">Stop Alarm</button>
+            </form>
+            <hr />
+            <h2>Upcoming Alarm</h2>
+            <ul class="set-alarms-list">
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
