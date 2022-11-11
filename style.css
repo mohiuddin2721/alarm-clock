@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.content{
+    width: 30%;
+    /* background-color: beige; */
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    color: #ffffffff;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.container input{
+    padding: 5px;
+    margin: 10px 10px;
+}
+.container button{
+    padding: 5px;
+    margin: 10px;
+}
